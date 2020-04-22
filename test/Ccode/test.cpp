@@ -25,7 +25,11 @@ static int lsum(lua_State *L)
     return 1;
 }
 
-
+/**
+ * 
+ * C host pagram
+ * 
+ * */
 int main()
 {
     lua_State *L = luaL_newstate();
