@@ -14,6 +14,7 @@ using std::cin;
 using std::endl;
 using std::cerr;
 
+// from www.indienova.com/u/eastecho
 int main()
 {
     //****************************
