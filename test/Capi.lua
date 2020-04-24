@@ -17,7 +17,21 @@ lua_pushnumber(lua_State *L, lua_Number n)
 lua_State *luaL_newstate(void)
 void luaL_openlibs(lua_State *L)
 
+void lua_register(lua_State *L, const char *name, lua_CFunction f) -- It is a macro.
+
 lua_close(lua_State *L)
+
+-- some note begin
+
+typedef int (*lua_CFunction) (lua_State *L) -- type for C function
+(C/C++) to communicate with Lua, there is a protocol:
+
+C/C++ calls Lua:???
+
+
+lua calls C/C++:???
+
+-- some note end
 
 --]]
 

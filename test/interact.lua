@@ -31,4 +31,6 @@
       
       complementary: -ldl
       
+      completed: g++ test.cpp --std=c++11 /usr/local/lib/liblua.a -o test -ldl
+      
 --]]
